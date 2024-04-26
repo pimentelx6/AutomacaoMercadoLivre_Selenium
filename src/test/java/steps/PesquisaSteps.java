@@ -11,16 +11,7 @@ public class PesquisaSteps extends RunCucumberTest {
 
     @Given("que estou na página do mercado livre")
     public void que_estou_na_página_do_mercado_livre() {
+
         pesquisaPage.acessarTelaPrincipal();
     }
-
-    @When("pesquiso pelo produto {string}")
-    public void pesquiso_pelo_produto(String string) {
-            }
-
-    @Then("o produto é encontrado")
-    public void o_produto_é_encontrado() {
-    }
-
-
 }
